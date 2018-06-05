@@ -7,3 +7,7 @@
   * 宮崎　光
   * 末田　智之
   * 森　澪希
+
+## FortuneBotのドキュメント
+  こちらを参照:
+  [https://miyazakisoft.github.io/FortuneBot/](https://miyazakisoft.github.io/FortuneBot/ "docs")
