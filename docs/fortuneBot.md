@@ -7,19 +7,20 @@ RandomSelectorを使用しておみくじを10回ひき、結果を表示する�
 
 
 # Kotlin + Gradleプロジェクトの作り方。
-### 1
-gradleプロジェクトを用意したいディレクトリに移動
+### 1. gradleプロジェクトを用意したいディレクトリに移動
 
-### 2
-gradle init
+### 2. gradleプロジェクトの作成
+`$ gradle init`
 を実行する。
 
-### 3
-build.gradleを書き換える。
+### 3. buildファイルの修正
+`build.gradle`を書き換える。
+
 http://etc9.hatenablog.com/entry/2017/08/03/190506 を参照。
 
+```build.gradle
 plugins {
-id "org.jetbrains.kotlin.jvm" version "1.1.3-2"
+    id "org.jetbrains.kotlin.jvm" version "1.1.3-2"
 }
 
 apply plugin: 'application'
@@ -27,16 +28,17 @@ apply plugin: 'application'
 mainClassName = 'code.example.HelloWorldKt'
 
 repositories {
-jcenter()
+    jcenter()
 }
 
 dependencies {
-compile "org.jetbrains.kotlin:kotlin-stdlib-jre8"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8"
 }
+```
 
 ### 4
-{gradleプロジェクトがあるディレクトリ}/src/main/kotlin/にkotlinのソースを置く。
+`{gradleプロジェクトがあるディレクトリ}/src/main/kotlin/`にkotlinのソースを置く。
 
 ### 5
-gradle run
+`$ gradle run`
 で実行。
