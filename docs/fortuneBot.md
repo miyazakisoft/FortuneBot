@@ -36,9 +36,9 @@ dependencies {
 }
 ```
 
-### 4
+### 4. 実際のプログラムの場所
 `{gradleプロジェクトがあるディレクトリ}/src/main/kotlin/`にkotlinのソースを置く。
 
-### 5
+### 5. 実行方法
 `$ gradle run`
 で実行。
