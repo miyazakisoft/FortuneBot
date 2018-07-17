@@ -10,4 +10,4 @@
 
 ## FortuneBotのドキュメント
   こちらを参照:
-  [https://miyazakisoft.github.io/FortuneBot/](https://miyazakisoft.github.io/FortuneBot/ "docs")
+  [https://miyazakisoft.github.io/FortuneBot/fortuneBot](https://miyazakisoft.github.io/FortuneBot/fortuneBot "docs")
