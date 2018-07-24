@@ -87,5 +87,5 @@ atlassian-ide-plugin.xml
 .gradletasknamecache
 
 # this project setting
-src/main/kotlin/Setting.kt
+Setting.kt
 
