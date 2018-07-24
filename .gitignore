@@ -86,3 +86,6 @@ atlassian-ide-plugin.xml
 # oh-my-zsh gradle plugin
 .gradletasknamecache
 
+# this project setting
+/src/main/kotlin/Setting.kt
+
