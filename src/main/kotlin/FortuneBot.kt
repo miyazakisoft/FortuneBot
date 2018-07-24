@@ -1,5 +1,6 @@
 import com.github.kittinunf.fuel.httpGet
 import com.github.kittinunf.result.Result
+import Setting
 
 val random = java.util.Random()
 
@@ -24,8 +25,9 @@ fun main(args: Array<String>){
             .forEach{ item -> println(item) }
     */
 
+    val token = Setting().getToken()
     val result = randomSelector.getResult()
-    val url = "https://slack.com/api/chat.postMessage?token=xoxp-367071642352-367245642241-376524142790-7080e417ddde55cac51d2377dc3cad42&channel=random&text=$result"
+    val url = "https://slack.com/api/chat.postMessage?token=${token}&channel=random&text=${result}"
 
     url.httpGet().response()
 
